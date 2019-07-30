@@ -25,6 +25,7 @@ namespace RuleBasedAlertingSystem3
                 AlertGenerator.CheckSpo2(person.Spo2);
                 AlertGenerator.CheckPulseRate(person.PulseRate);
                 AlertGenerator.CheckTemperature(person.Temperature);
+                Console.Writeline("===================================");
             }
 
             Console.ReadLine();
